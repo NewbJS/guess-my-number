@@ -25,6 +25,7 @@ func main() {
 	//Generates a random 64 bit integer from 0 to 10.
 	rand.Seed(time.Now().UnixNano())
 	ranNum := rand.Int63n(11)
+	
 	fmt.Println("Pick a random number, from 0 to 10!")
 
 	//Setting up the scanner
