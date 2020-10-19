@@ -9,7 +9,7 @@ var GotWrong int8 = 0
 //HowMany checks the amount you got wrong.
 func HowMany() {
 
-	//The user lost if GotWrong > 3. If GotWrong < 3, the user won.
+	//The user lost if GotWrong > 3. If GotWrong <= 3, the user won.
 	switch {
 
 	case GotWrong > 3:
