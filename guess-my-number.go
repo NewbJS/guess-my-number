@@ -71,8 +71,7 @@ func main() {
 		//If both previous cases returned false, the user guessed correctly.
 		default:
 
-			//End the loop, and tell the user how many guesses they got wrong. check.HowMany() is a function form the check package.
-
+			//End the loop, and tell the user how many guesses they got wrong. check.HowMany() is a function from the check package.
 			check.HowMany()
 			guessedCorrectly = true
 			checkIfPlayAgain()
